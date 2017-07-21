@@ -1,0 +1,24 @@
+cat data.txt | wc -l > answers.txt
+35
+cat data.txt | grep Kenny | wc -l >> answers.txt
+15
+cat data.txt | grep "Kenny\|Karen" | wc -l
+20
+awk {print } < data.txt >> answers.txt
+awk '{print }' < data.txt | awk {print toupper(bash)}' >> pokemon.txt
+sort -u pokemon_evolved.txt | wc -l >> answers.txt
+awk '{print $2}' < data.txt | python -c "import sys; print (sum(int(line) for line in sys.stdin))"
+16728
+cat data.txt | grep -n "Kenny\|Karen" | awk '{print $2}' | python -c "import sys; print (sum(int(line) for line in sys.stdin))"
+-8160
+curl www.google.com | grep --only-matching google
+google
+cat word.txt | wc -m >> answers.txt
+35
+chmod 755 mystery.sh >> answers.txt
+./mystery.sh >> answers.txt
+hello world script!
+find . | wc -l >> answers.txt
+737
+find ./kern -name errno.h >> answers.txt
+./kern/include/kern/errno.h
